@@ -1,0 +1,9 @@
+com.example.customspringboot.config.core.EnableMagicAutoConfiguration=\
+com.example.customspringboot.config.web.TomcatConfiguration,\
+com.example.customspringboot.config.web.UndertowConfiguration,\
+com.example.customspringboot.config.web.DispatcherServletConfiguration,\
+com.example.customspringboot.config.web.MvcConfiguration,\
+com.example.customspringboot.config.core.PropertyPlaceholderConfiguration
+
+org.springframework.boot.env.EnvironmentPostProcessor=\
+com.example.customspringboot.config.core.MagicPropertiesPostProcessor
